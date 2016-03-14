@@ -1,0 +1,59 @@
+.foot ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /*width: 116px;*/
+    line-height: 48px;
+}
+.foot li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+    padding:0;
+     width: 48px;
+    height: 48px;
+   /* background-color: #2b47ff;
+    border-radius: 50%;*/
+
+}
+.foot{
+    margin: 100px auto ;
+}
+.foot li a{
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+   /* !*border: 2px solid floralwhite;*!*/
+    background-color: #2b47ff;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    display: block;
+    transition: all 0.4s ease-in;
+}
+.foot li a:hover{
+    background-color: #000;
+   /*border-radius: 50%;*/
+    /*transition: all 0.4s ease-in;*/
+}
+/*.foot li a{
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    background-color: pink;
+}*/
+/*
+.QQ{
+    background: url("QQ.png") 0 -48px no-repeat;
+}
+.QQ a:hover{
+    background: url("QQ.png") 0 0 no-repeat;
+}
+.weibo{
+    background: url("weibo.png") 0 -48px no-repeat;
+}
+.weibo a:hover{
+    background: url("weibo.png") 0 0 no-repeat;
+}*/

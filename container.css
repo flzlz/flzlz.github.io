@@ -1,0 +1,45 @@
+.container1{
+margin: 0 auto;
+    width: 90%;
+
+}
+.container{
+    margin: 0 auto;
+    width:90%;
+    /*border: 2px solid black;*/
+    display: flex;
+   flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .item1{
+
+    height: 350px;
+    background-color: white;
+    margin: 10px;
+    width: 30%;
+   flex: 1  0 auto;
+    word-wrap: break-word;
+    border: 2px solid transparent;
+}
+.container .item2{
+
+    height: 350px;
+    background-color: dodgerblue;
+    border: 2px solid transparent;
+    margin: 10px;
+    width: 60%;
+    flex: 2  0 auto;
+    word-wrap: break-word;
+}
+.container .item2:hover
+{
+    border: 2px solid white;
+}
+.container .item1:hover
+{
+    border: 2px solid dodgerblue;
+}
+span{
+    display: block;
+
+}
