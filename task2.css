@@ -1,0 +1,173 @@
+html{
+     overflow-x: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dedede;
+    font-family: 微软雅黑;
+}
+.header{
+    background-color: #333333;
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+#logo{
+    float: left;
+    margin-top: 8px;
+    margin-left: 40px;
+    /*padding: 0;*/
+    text-indent: -999px;/*隐藏文字*/
+    width: 100%; /*保证图片能撑开宽度*/
+    background: url("bd_logo.png") no-repeat;
+    background-size: 130px;
+}
+.header ul{
+    list-style-type: disc;
+    position: absolute;
+    right: 30px;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+.header ul li{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+.header .selected{
+    color: #cdcdcd;
+}
+.header ul li a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #fff;
+    line-height: 60px;
+}
+.container{
+    overflow-x: hidden;
+    height: auto;
+    margin: 20px;
+    border: 1px solid #cdcdcd;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px 1px 1px #848484;
+    -moz-box-shadow:  1px 1px 1px #848484;
+    box-shadow: 1px 1px 1px #848484;
+    padding: 30px 20px ;
+}
+.container img{
+    margin:20px 0;
+}
+.title1{
+    font-size: 22px;
+}
+.title2{
+    margin-top: 18px;
+    font-size: 17px;
+    color: #6f6c67;
+}
+.title3{
+    margin-top: 15px;
+    font-size: 10px;
+    color: #6f6c67;
+}
+.container ul{
+    list-style-type: none;
+}
+p{
+    text-indent: 2em;
+    margin:0;
+    padding: 0;
+}
+.item{
+    width:125px;
+    height:125px;
+    border: 1px solid #cdcdcd;
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+    margin:10px 0;
+}
+.item p{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    text-indent: 0;
+}
+.item .pic{
+    width: auto;
+    height: auto;
+    margin: 20px 10px 10px 10px ;
+}
+.item img{
+    width:100%;
+    height: 100%;
+    margin: 0;
+}
+.container table{
+    border-collapse: collapse;
+    width:100%;
+    margin: 0;
+    border-color: #cccccc;
+}
+.container table th{
+    text-align: left;
+    background-color: #333333;
+    border:1px solid #cccccc;
+    color: #ffffff;
+    padding-left: 10px;
+}
+.container table td{
+    border:1px solid #cccccc;
+    padding-left: 10px;
+}
+.container table .tfoot td{
+    border: 1px solid #ffffff;
+    background-color: #cccccc;
+}
+#side h2{
+    border-left: 3px solid  #cccccc;
+    padding-left: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+#side{
+    text-align: center;
+}
+#side table{
+    font-size: 15px;
+    border: hidden;
+}
+#side table tr{
+    border: hidden;
+}
+#side table td{
+    border: hidden;
+    text-align: left;
+    padding:7px 6px;
+}
+#side table .one{
+    text-align: right;
+}
+#side .tip{
+    font-size: 13px;
+    color: #cccccc;
+}
+#side .enter{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #3355d0;
+   border-radius: 10px;
+    border-color: #3355d0;
+}
+footer{
+    height: 70px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    background-color: #000000;
+    line-height: 70px;
+    color: #ffffff;
+}
